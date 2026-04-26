@@ -66,7 +66,7 @@ To reduce bias risk in future iterations, I would consider multiple imputation f
 
 ## Reproducibility
 
-Reproducible workflows that document every step from data ingestion to analysis are essential for transparent and verifiable research (Rule et al., 2022). This project is fully reproducible. The Python environment is managed with uv, with all dependencies recorded in pyproject.toml and uv.lock. A requirements.txt file is also provided for compatibility with pip-based workflows. The dataset is included in the repository under the dataset/ folder. The Jupyter notebook data_workflow.ipynb runs top-to-bottom without errors after a fresh kernel restart. Version control is maintained through Git with multiple commits on a dev branch, providing a clear history of incremental progress.
+Reproducible workflows that document every step from data ingestion to analysis are essential for transparent and verifiable research (Danchev, 2022). This project is fully reproducible. The Python environment is managed with uv, with all dependencies recorded in pyproject.toml and uv.lock. A requirements.txt file is also provided for compatibility with pip-based workflows. The dataset is included in the repository under the dataset/ folder. The Jupyter notebook data_workflow.ipynb runs top-to-bottom without errors after a fresh kernel restart. Version control is maintained through Git with multiple commits on a dev branch, providing a clear history of incremental progress.
 
 ---
 
@@ -76,7 +76,7 @@ Dong, Y., & Peng, C. Y. J. (2013). Principled missing data methods for researche
 
 Kaggle. (n.d.). Titanic - Machine Learning from Disaster. https://www.kaggle.com/c/titanic/data
 
-Rule, A., Sandstrom, N., Viggiano, D., Deniz, E., Doan, A., Kwan, I., & Poldrack, R. A. (2022). Reproducible data science with Python: An open learning resource. *Journal of Open Source Education*, *5*(50), 119. https://doi.org/10.21105/jose.00119
+Danchev, V. (2022). Reproducible Data Science with Python: An Open Learning Resource. *Journal of Open Source Education*, *5*(56), 156. https://doi.org/10.21105/jose.00156
 
 ---
 
