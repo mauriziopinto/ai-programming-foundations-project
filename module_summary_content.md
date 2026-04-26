@@ -66,7 +66,7 @@ To reduce bias risk in future iterations, I would consider multiple imputation f
 
 ## Reproducibility
 
-This project is fully reproducible. The Python environment is managed with uv, with all dependencies recorded in pyproject.toml and uv.lock. A requirements.txt file is also provided for compatibility with pip-based workflows. The dataset is included in the repository under the dataset/ folder. The Jupyter notebook data_workflow.ipynb runs top-to-bottom without errors after a fresh kernel restart. Version control is maintained through Git with multiple commits on a dev branch, providing a clear history of incremental progress.
+Reproducible workflows that document every step from data ingestion to analysis are essential for transparent and verifiable research (Rule et al., 2022). This project is fully reproducible. The Python environment is managed with uv, with all dependencies recorded in pyproject.toml and uv.lock. A requirements.txt file is also provided for compatibility with pip-based workflows. The dataset is included in the repository under the dataset/ folder. The Jupyter notebook data_workflow.ipynb runs top-to-bottom without errors after a fresh kernel restart. Version control is maintained through Git with multiple commits on a dev branch, providing a clear history of incremental progress.
 
 ---
 
